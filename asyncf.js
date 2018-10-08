@@ -117,7 +117,7 @@ asyncf( function monasyncprocess ( step , result1 , result2 , gvar , callback ) 
 				
 			case 40 :
 				// timeout
-				console.log( "loop 40") ;
+				console.log( "step 40") ;
 				whateverasyncfunction( 0 , 0 , callback ) ;
 				gvar.settimeout( 500 ) ;
 				return [ 0 , 49 ] ;
