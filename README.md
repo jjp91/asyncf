@@ -10,3 +10,5 @@ Nodejs v8 or higher
   o timeout
 
   o Parallel asynchronous calls
+  
+  o loop
