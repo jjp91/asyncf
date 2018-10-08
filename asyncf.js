@@ -54,6 +54,7 @@ function asyncf( cb ) {
 
 function whateverasyncfunction( param1 , param2 , cb , err ) { setTimeout( cb , 1000 , err , param1 , param2 ) }
 
+//example
 asyncf( function monasyncprocess ( step , result1 , result2 , gvar , callback ) {
 	do { 
 		switch ( step ) {
